@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"tulin_01\stm32f4xx_hal_msp.o"
+"tulin_01\main.o"
+"tulin_01\stm32f4xx_it.o"
+"tulin_01\system_stm32f4xx.o"
+"tulin_01\startup_stm32f411xe.o"
+"tulin_01\stm32f4xx_hal_flash_ex.o"
+"tulin_01\stm32f4xx_hal_rcc.o"
+"tulin_01\stm32f4xx_hal_flash.o"
+"tulin_01\stm32f4xx_hal_gpio.o"
+"tulin_01\stm32f4xx_hal_dma.o"
+"tulin_01\stm32f4xx_hal.o"
+"tulin_01\stm32f4xx_hal_tim.o"
+"tulin_01\stm32f4xx_hal_tim_ex.o"
+"tulin_01\stm32f4xx_hal_dma_ex.o"
+"tulin_01\stm32f4xx_hal_cortex.o"
+"tulin_01\stm32f4xx_hal_pwr.o"
+"tulin_01\stm32f4xx_hal_rcc_ex.o"
+"tulin_01\stm32f4xx_hal_flash_ramfunc.o"
+"tulin_01\stm32f4xx_hal_pwr_ex.o"
+"tulin_01\stm32f4xx_hal_adc_ex.o"
+"tulin_01\stm32f4xx_hal_adc.o"
+"tulin_01\stm32f4xx_hal_uart.o"
+--library_type=microlib --strict --scatter "Tulin_01\Tulin_01.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Tulin_01.map" -o Tulin_01\Tulin_01.axf
