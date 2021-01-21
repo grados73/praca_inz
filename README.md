@@ -12,3 +12,5 @@ aby osiągnąć większą efektywność treningów. Projekt składa się z dwóc
 Pierwszy z nich jest niesiony przez biegacza, jego zadaniem jest pomiar tętna i utrzymanie go w zakresie ustalonym przez ćwiczącego. 
 Drugi moduł ma za zadanie jechać po ustalonej linii i utrzymywać zadane tempo.
 
+https://youtu.be/Zt6rl9LgnUI
+
